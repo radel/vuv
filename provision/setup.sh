@@ -1,14 +1,6 @@
 #!/bin/bash
 
 echo "Provisioning virtual machine..."
-# Git
-echo "Installing Git"
-apt-get install git -y > /dev/null
-# Node
-echo "Installing Node"
-sudo apt-get install nodejs -y > /dev/null
-sudo apt-get install npm -y > /dev/null
-
 echo "Installing Vesta"
 
 echo "We will install vesta as root.":
