@@ -8,7 +8,7 @@ echo "Switch to root user...":
 sudo su;
 cd ~;
 curl -O http://vestacp.com/pub/vst-install.sh;
-bash vst-install.sh --nginx yes --apache yes --phpfpm no --vsftpd yes --proftpd no --exim yes --dovecot yes --spamassassin yes --clamav yes --named yes --iptables yes --fail2ban yes --mysql yes --postgresql no --remi yes --quota no --hostname vuv --email marco.bonomo+vesta@gmail.om --password 123456
+bash vst-install.sh --force -y no --nginx yes --phpfpm yes --apache no --vsftpd yes --proftpd no --exim yes --dovecot yes --spamassassin yes --clamav yes --named yes --iptables yes --fail2ban yes --mysql yes --postgresql no --remi no --quota no --hostname vuv --email marco.bonomo@gmail.com --password 123456
 rm vst-install.sh;
 echo "Removed VestaCP installer.";
 echo "Finished installation of Vesta Control Panel.";
